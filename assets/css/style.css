@@ -1,0 +1,628 @@
+@charset "UTF-8";
+/* CSS Document */
+@import
+url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+
+@import
+url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700);
+
+body {
+    font-family: 'Open Sans', Arial, Verdana;
+    font-size: 13px;
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    color: #5d5d5d;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #444;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+}
+
+a:link {
+    color: #2baae2;
+    text-decoration: none
+}
+
+a:visited {
+    color: #2baae2;
+    text-decoration: none
+}
+
+a:hover {
+    color: #e5007e;
+    text-decoration: none;
+}
+
+a:active {
+    color: #e5007e;
+    text-decoration: none
+}
+
+/*_____Responsive media_____*/
+@media (min-width: 1200px) {
+    .follow-us {
+        width: 100%;
+        /*padding: 0 28%;*/
+        margin: 9% 0;
+    }
+    .titulo-formulario> .normal-weight, .titulo-formulario> .bold-weight{
+        font-size: 22px;
+    }
+}
+@media (max-width: 992px) {
+    .titulo-formulario> .normal-weight, .titulo-formulario> .bold-weight{
+        font-size: 18px;
+    }
+}
+
+@media ( max-width : 991px) {
+    .logotipo-dane img {
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+}
+
+@media ( max-width :768px) {
+    .logo_dane-2017 img {
+        max-width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+        .titulo-formulario {
+        padding-top: 35px;
+        text-align: center;
+    }
+    .titulo-formulario h1, .titulo-formulario h2{
+        font-size: 28px;
+    }
+    .tituloForm {
+        margin-top: 5px !important;
+    }
+    .margin-login {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+}
+
+@media ( max-width :767px) {
+    .bienvenida {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 30px;
+    }
+    .btn-link {
+        color: #000 !important;
+    }
+    .logo_dane-2017 img {
+        max-width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .titulo-formulario {
+        padding-top: 35px;
+        text-align: center;
+        float: none;
+    }
+    .titulo-formulario> .normal-weight, .titulo-formulario> .bold-weight{
+        font-size: 22px;
+    }
+    .follow-us {
+        /*padding: 0 30%;*/
+        margin: 9% 0;
+    }
+    .follow-us a {
+        margin: 0 5%;
+    }
+    .fondoLogin {
+        background-size: auto !important;
+        background-position-x: -750px;
+    }
+    .ingreso-titulo {
+        text-align: center;
+    }
+    .logotipo-dane {
+        max-width: 100%;
+    }
+    .logotipo-dane img {
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+    .margin-login {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .navbar-brand {
+        float: none;
+    }
+    .navbar-brand img {
+        margin: 0 auto;
+    }
+    .page-header h1 {
+        text-align: center;
+    }
+    .textWhite h2 {
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .textWhite h4 {
+        color: #FFFFFF;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .titulo-formulario h1, .titulo-formulario h2{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 500px){
+    .logo_dane-2017 img {
+        max-width: 60%;
+    }
+}
+
+/*Fin Responsive media*/
+/*
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+.idiom-box a:active{
+    background-color: #b6004c;
+}
+
+.header_main-content {
+    margin-top: 40px;
+}
+
+.titulo-formulario {
+    padding-top: 30px;
+    float: right;
+    text-align: right;
+}
+
+.titulo-formulario> .normal-weight, .titulo-formulario> .bold-weight{
+    margin: 0;
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.titulo-formulario> .normal-weight{
+    color: #8d143d;
+    font-weight: 700;
+}
+
+.titulo-formulario> .bold-weight{
+    color: #631028;
+    font-weight: 400;
+}
+
+.pattern-line{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+*/
+/* _________Header__________*/
+/*.logo-login img {
+    display: block;
+    margin: 0 auto;
+}
+
+.bienvenida {
+    margin-top: 25px;
+}
+
+.usuario {
+    margin-top: 10px;
+}
+
+.usuario h2 {
+    text-align: center;
+}
+
+.usuario p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 1px solid #5d5d5d;
+    padding-bottom: 1px;
+}
+
+.cierre-sesion {
+    text-align: center;
+}
+
+.cierre-sesion a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.disabledTab {
+    pointer-events: none;
+}
+
+.textWhite {
+    color: #FFFFFF;
+    //background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.textWhite h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 33px;
+}
+
+.textWhite h4 {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.tituloForm {
+    margin-top: 70px;
+    vertical-align: top;
+}*/
+
+/*Estilo para el boton para ir arriba de la pagina*/
+/*.scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 50px;
+    right: 1%;
+    display: none;
+    text-indent:-9999px;
+    background: url('../../assets/images/icon_top.png') no-repeat;
+}*/
+
+/* Estilo para mostrar la animacion cargando... */
+/*.animationload {
+    background: #ffffff;
+    filter: alpha(opacity=80); //For IE8 and earlier 
+    height: 100%;
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+#imageLoad {
+    background: url('../../assets/images/load.gif') no-repeat;
+    height: 50px;
+    left: 50%;
+    margin: -33px 0 0 -33px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+}
+
+.ui-datepicker-year, .ui-datepicker-month, .ui-state-default {
+    color: #222222;
+}
+
+.ui-state-highlight {
+    color: #8FBE3E;
+}*/
+
+/* Container */
+/*.margin-login {
+    margin-top: 50px;
+    margin-left: 95px;
+}*/
+
+/** Estilos CSS para QTIP ***/
+/*.qtip-DANE {
+    font-family: 'Open Sans', Arial, Verdana;
+    font-size: 12px;
+    color: black;
+    border: 3px solid #2baae2;
+}*/
+
+/* Inicio estilos Login form */
+/*.fondoLogin {
+    background-image: url(../images/login-img0.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    //width: 100%;
+    min-width: 410px;
+    width: 1140px;
+}
+
+.btn-link {
+    color: #FFF;
+}
+
+.btn-link:focus,.btn-link:hover {
+    color: #C8C8C8;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #0079a4;
+    border-color: #5d5d5d;
+}
+
+.btn-primary:active:focus,.btn-primary:active:hover,.btn-primary:hover {
+    background-color: #5d5d5d;
+    border-color: #474747;
+}*/
+
+/* Custom Colored Panels */
+/*.huge {
+    font-size: 36px;
+}
+
+.panel-heading {
+    border-color: #cccccc;
+    color: #999999;
+    background-color: #fff;
+}
+
+.panel-primary>.panel-heading {
+    border-color: #cccccc;
+    color: #999999;
+    background-color: #fff;
+}
+
+.panel-yellow,.panel-green,.panel-red,.panel-blue,.panel-primary {
+    border-color: #cccccc;
+}
+
+.panel-yellow:hover {
+    border-color: #ffcf00;
+}
+
+.panel-yellow:hover>.panel-heading {
+    border-color: #ffcf00;
+    background-color: #ffcf00;
+    color: #fff;
+}
+
+.panel-yellow>a,.panel-green>a,.panel-red>a,.panel-blue>a {
+    color: #4e4e4e;
+}
+
+.panel-yellow>a:hover {
+    color: #ffcf00;
+}
+
+.panel-green:hover {
+    border-color: #98be2d;
+}
+
+.panel-green:hover>.panel-heading {
+    border-color: #98be2d;
+    color: #fff;
+    background-color: #98be2d;
+}
+
+.panel-green>a:hover {
+    color: #98be2d;
+}
+
+.panel-red:hover {
+    border-color: #f29c13;
+}
+
+.panel-red:hover>.panel-heading {
+    border-color: #f29c13;
+    color: #fff;
+    background-color: #f29c13;
+}
+
+.panel-red>a:hover {
+    color: #f29c13;
+}
+
+.panel-blue:hover {
+    border-color: #007a95;
+}
+
+.panel-blue:hover>.panel-heading {
+    border-color: #007a95;
+    color: #fff;
+    background-color: #007a95;
+}
+
+.panel-blue>a:hover {
+    color: #007a95;
+}
+
+.pruebaimg {
+    float: left;
+    border: 1px solid #FF0000;
+    background-image: url("../images/registro.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.logotipo-dane {
+    margin: 10px 0;
+}
+
+.follow-us {
+    width: 100%;
+    margin: 9% 0;
+    display: block;
+    text-align: center;
+}
+
+.follow-us a {
+    margin: 0 4%;
+}
+
+.contact_top {
+    margin-top: 4%;
+}
+
+.contact_details {
+    text-align: center;
+}
+
+.contact_details p {
+    font-size: 13px;
+    color: #4e4e4e;
+    margin-top: 5%;
+}
+
+.contact_details .fa-2x {
+    color: #4e4e4e;
+}
+
+.errorForm {
+    color: #FF0000;
+    margin-left: 10px;
+}
+
+.row label.titulo {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.panel-default .panel-heading {
+    background-color: #0079a4;
+    border-color: #ddd;
+    color: #FFF;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}*/
+
+/* Estilos de mensaje de error 404 */
+/*#contenedor-error {
+	width:100%;
+}
+#logotipo-dane {
+  padding: 15px 0px 0px 15px;
+	height: 130px;
+}
+.aviso-error {
+	 padding-top:20px;
+	 font-family: 'Roboto Slab', serif;
+	 font-size:38px;
+	 color:#4c4c4c;
+}
+.img-error{
+	margin:20px 0;
+	-webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+.img-error:hover{
+	cursor:default;
+	-webkit-transform: scale(1.1,1.1);
+   -moz-transform: scale(1.1,1.1);
+   -o-transform: scale(1.1,1.1);
+   -ms-transform: scale(1.1,1.1);
+   transform: scale(1.1,1.1);
+}
+.texto-error1 {
+	 font-family: 'Open Sans', Arial;
+	 color:#4c4c4c;
+	 font-weight: 300;
+	 line-height:30px;
+	 margin:0;
+}
+.texto-error2 {
+	 font-family: 'Open Sans', Arial;
+	 font-weight: 700;
+	 color:#4c4c4c;
+	  margin:0;
+}
+.border-texto-error {
+	border-bottom:1px solid #4c4c4c;
+	margin:5px 0;
+}
+.regreso-inicio{
+	font-family: 'Open Sans', Arial;
+	font-weight:300;
+	color: #b6004b;
+	font-size:15px;
+}
+.regreso-inicio:hover{
+	color: #e6007e;
+	text-decoration:none;
+	font-weight:400;
+}
+.contacto-web {
+	font-family: 'Open Sans', Arial;
+	font-weight:400;
+	color: #4c4c4c;
+	font-size:14px;
+	line-height:16px;
+	margin-top:60px;
+}
+.mail-contacto{
+	font-family: 'Open Sans', Arial;
+	font-weight:600;
+	color: #4c4c4c;
+	font-size:14px;
+	line-height:14px;
+	margin-bottom:40px;
+}
+.mail-contacto:hover{
+	color: #e6007e;
+	text-decoration:none;
+	font-weight:400;
+}
+.linea-institucional{
+	margin:30px 0;
+}*/
+/* Fin estilos de mensaje de error 404 */
+
+/* Inicio estilos de amCharts ************************************ */
+#chartdiv {
+    width: 100%;
+    height: 500px;
+    font-size: 11px;
+}
+
+.amcharts-export-menu-top-right {
+    top: 10px;
+    right: 0;
+}
+/* Fin estilos de amCharts ******************************************/

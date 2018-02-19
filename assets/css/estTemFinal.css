@@ -1,0 +1,32 @@
+
+body{font-family: 'Open Sans', sans-serif;/*height:100%;*/padding:0px;margin:0 0 150px;}
+
+
+
+#main_nav img{}
+#main_nav{color:white;}
+#main_nav .quarter{padding:10px 0px;}
+
+.center{text-align:center;}
+.quarter{width:25%;display:inline-block; float:left;}
+.al{cursor:pointer;}
+.main_nav_num{width:100%;float:left;text-align:center;}
+.main_nav_txt{width:100%;float:left;padding:10px 0px;}
+.large{font-size:large;}
+.small{font-size:small;}
+.nomargin{margin:0px !important;}
+.whole{width:100%; display:inline-block; float:left;}
+
+/*#tile_cursos{}
+.kirks_mob_onmouseout{}
+.white{/*Falta colocar*/
+
+@media (max-width:799px) {
+
+
+#main_nav .quarter{width:50%;}
+
+.main_nav_num{width:100%;float:left;text-align:center;}
+.main_nav_txt{width:100%;float:left;padding:10px 0px;}
+	
+}
